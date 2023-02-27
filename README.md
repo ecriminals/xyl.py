@@ -45,3 +45,12 @@ _socials = client.set_socials(
 )
 print(_socials)
 ```
+or
+```py
+import xyl
+
+client = xyl.client()
+client.loginwithcreds("user", "pass") # loginwithcookie("cookie")
+_socials = client.set_socials(github="ecriminals") # supports all of the platforms listed above in the first example.
+print(_socials)
+```
